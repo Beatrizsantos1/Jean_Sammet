@@ -3,15 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #805cb4;
+}
 header {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  background-image: url(./img/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #text-header {
   margin-top: 50px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: white;
 }
 .father_container {
   width: 640px;
@@ -19,6 +28,7 @@ header {
   background-color: black;
   overflow: hidden;
   margin-top: 50px;
+  border: solid 10px;
 }
 .father_container .container_photo {
   width: 500%;
@@ -63,10 +73,97 @@ header {
   }
 }
 
-#start {
+#contaner-gray {
   background-color: rgba(244, 240, 240, 0.937);
-  height: 100%;
+  height: 300px;
 
   display: flex;
+  text-align: center;
+  align-items: center;
   justify-content: space-around;
+  background-attachment: fixed;
+}
+#contaner-gray p {
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+#contaner-white {
+  background-color: rgba(244, 240, 240, 0.937);
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#contaner-white ul li {
+  font-family: "Raleway", sans-serif;
+  margin: 5px;
+  margin-left: 30px;
+}
+#contaner-white ul {
+  width: 50%;
+}
+#contaner-white img {
+  width: 284px;
+  height: 254px;
+}
+#contaner-white p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-bottom: 23px;
+  margin-left: -66px;
+}
+
+#img-quatro {
+  width: 360px;
+  height: 230px;
+}
+
+#pai {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+#pai p {
+  margin-left: 90px;
+  width: 60%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 30vh;
+  background-image: url(./img/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  display: inline-block;
+  margin-top: 12px;
+}
+#footer-links {
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: 5px;
+}
+#footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.branco {
+  background-color: white;
+}
+span {
+  color: #805cb4;
 }
